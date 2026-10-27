@@ -47,13 +47,13 @@
 #
 # 14. Сохраните текущие изменения в стэш под названием "SENATOROV ver1",
 # вставьте скриншот из терминала
-# git stash save "SENATOROV ver1"
+# git stash push -m "SENATOROV ver1"
 #
 # ![stash_14](images/stash_14.png)
 #
 # 15. Внесите любые изменения в ваш репозиторий и сохраните второй стэш под
 # именем "SENATOROV ver2"
-# git stash save "SENATOROV ver2"
+# git stash push -m "SENATOROV ver2"
 # git stash list
 #
 # ![stash_15](images/stash_15.png)
